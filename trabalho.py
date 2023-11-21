@@ -38,7 +38,7 @@ class ControleUsuario:
                     elif tipo == 2:
                         tipo_usuario = "Fornecedor"
                     print("Usuário autenticado com sucesso. Tipo de usuário: {}".format(tipo_usuario))
-                    # Coloque aqui as ações específicas do tipo de usuário.
+                    
                 else:
                     print("Tipo de usuário incorreto.")
             else:
